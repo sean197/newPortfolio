@@ -261,7 +261,7 @@ img {
 
 #home-c .process {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: minmax(100px, auto);
   grid-gap: 1.5rem;
   text-align: center; }
@@ -277,7 +277,8 @@ img {
     line-height: 15px;
     padding: 1rem;
     transition: all 1s; }
-  #home-c .process-icon {
+  #home-c .
+-icon {
     border-radius: 50%;
     background: #f3e367;
     color: #000;
