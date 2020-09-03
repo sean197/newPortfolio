@@ -320,6 +320,11 @@ img {
    background: url(img/who-am-i.jpg) no-repeat center center/cover; 
 }
 
+/* #about-a > div > div.about-info > div.bio-image{
+grid-area: bioimage;
+background: url(img/who-am-i.jpg);
+} */
+
 #about-a .about-info {
   display: grid;
   grid-template-areas: 'bioimage bio bio'
@@ -327,7 +332,9 @@ img {
   grid-gap: 1.2rem; }
 
 #about-a .bio-image {
-  grid-area: bioimage; }
+  grid-area: bioimage; 
+  background: url(img/who-am-i.jpg);
+}
 
 #about-a .bio {
   grid-area: bio;
