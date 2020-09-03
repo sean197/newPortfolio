@@ -516,14 +516,16 @@ img {
       flex-direction: column;
       padding: 1rem;
       height: 5rem; }
-  #work-a > div > div.items > div > div.item-text > div{
-    .item-text-wrap > p{
-     font-size: 12px; 
+ 
+    #work-a > div > div.items > div > div.item-text > div > p{
+       font-size: 12px; 
     }
-    .item-text-title{
-     font-size: 1rem; 
-    }
+  
+  #work-a > div > div.items > div > div.item-text > div > h2{
+         font-size: 25px; 
 
+  }
+   
 }
 
 @media (max-height: 580px) {
