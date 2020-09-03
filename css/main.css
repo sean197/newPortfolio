@@ -302,6 +302,20 @@ img {
   align-items: center;
   justify-items: center; }
 
+#about-a > div > div.about-info > div.bio.bg-light > a{
+     font-family: 'Dosis', sans-serif;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 8px;
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    transition: all 0.5s;
+    border: none;
+    cursor: pointer;
+    color: #333;
+    background-color: #f3e367; 
+}
+
 #about-a .about-info {
   display: grid;
   grid-template-areas: 'bioimage bio bio'
