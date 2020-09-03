@@ -316,6 +316,12 @@ img {
     background-color: #f3e367; 
 }
 
+#about-a > div > div.about-info {
+text-align: center;
+grid-area: bioimage;
+background: url(img/who-am-i.jpg) no-repeat center center/cover;
+}
+
 #about-a .about-info {
   display: grid;
   grid-template-areas: 'bioimage bio bio'
